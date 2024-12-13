@@ -1,3 +1,8 @@
+ttkbootstrap==1.10.1
+pyyaml
+numpy==1.23.5
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
 ultralytics>=8.3.24
 onnx==1.14.0
 openvino

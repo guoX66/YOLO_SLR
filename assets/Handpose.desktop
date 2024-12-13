@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Handpose system
+Comment=Run Handpose system Script
+Exec=/home/gx/Desktop/projects/YOLO_SLR/assets/Handpose.sh
+Icon=/home/gx/Desktop/projects/YOLO_SLR/assets/logo2.jpg
+Terminal=true
+Type=Application

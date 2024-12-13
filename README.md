@@ -45,7 +45,7 @@ python -c "import torch;print(torch.__version__);print(torch.version.cuda)"
 安装依赖
 
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## 2、树莓派5
@@ -84,6 +84,8 @@ sudo apt install -y rapidjson-dev
         --model2
         ... 
 ```
+
+也可以使用本项目已经训练好的模型：https://github.com/guoX66/YOLO_SLR/releases/tag/v1.0
 
 要使用openvino进行推理可以用export.py进行模型转换：
 
