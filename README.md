@@ -2,6 +2,10 @@
 
 ### 使用YOLO进行在各平台上进行手语识别（包括有nvidia和无nvidia的windows，树莓派5+AI Kit）
 
+### 演示视频：
+
+![gif](https://github.com/guoX66/YOLO_SLR/blob/main/assets/demo.gif)
+
 ### 模型训练参考：[guoX66/simple_YOLO](https://github.com/guoX66/simple_YOLO)
 
 ### 模型转换到树莓派5+AI Kit所需的HEF文件参考：[树莓派5B+AI_KIT基于hailo模块转换重新训练的YOLO模型_hailo8 yolo-CSDN博客](https://blog.csdn.net/2301_76725922/article/details/143829506)
@@ -122,5 +126,3 @@ python main.py
 ```
 python server.py
 ```
-
-
