@@ -111,6 +111,9 @@ def display_user_data_frame(user_data: app_callback_class):
         frame = user_data.get_frame()
         if frame is not None:
             cv2.imshow("User Frame", frame)
+            if cv2.getWindowProperty('User Frame', cv2.WND_PROP_VISIBLE) < 1:
+                print('Done!')
+                break
         cv2.waitKey(1)
     cv2.destroyAllWindows()
 
